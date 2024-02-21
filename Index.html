@@ -6,64 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro Barbosa - Portifólio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-    <div class="container">
-        <nav>
-            <ul>
-                <li>
-                    <a href="Index.html">Sobre Mim</a>
-                </li>
-                <li>
-                    <a href="projetos.html">Projetos</a>
-                </li>
-                <li>
-                    <a href="contato.html">Contato</a>
-                </li>
-            </ul>
-        </nav>
-        <header>
-            <div class="center">
-                <img src="image/Pedro.png" alt="foto-pedro">
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="Index.html">
+                    <img src="image/PH LOGO PRETO.png" alt="logoph">
+                </a>
             </div>
-            <h1>Pedro Barbosa</h1>
-            <p>Desenvolvedor Web</p>
-        </header>
-        <section>
-            <h2>Sobre Mim</h2>
-            <p>Como desenvolvedor, mergulho diariamente em tecnologias como HTML, CSS, JavaScript, Python e GIt.
-                Atualmente estou cursando o segundo período de Analise e Desenvolvimento de Sistemas. Estou
-                comprometido(a) com meu desenvolvimento acadêmico e buscando integrar teoria e prática de maneira
-                eficaz.</p>
+
+            <nav class="meni-desktop">
+                <ul>
+                    <li>
+                        <a href="sobre.html">Sobre Mim</a>
+                    </li>
+                    <li>
+                        <a href="projetos.html">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="especialidades.html">Especialidades</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="">
+                    <button>Contato</button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Sobre</h1>
+                        <p>Como desenvolvedor, mergulho diariamente em tecnologias como HTML, CSS, JavaScript, Python e
+                            GIt.
+                            Atualmente estou cursando o segundo período de Analise e Desenvolvimento de Sistemas. Estou
+                            comprometido(a) com meu desenvolvimento acadêmico e buscando integrar teoria e prática de
+                            maneira
+                            eficaz.</p>
+
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em Contato</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="image/foto site.jpg" alt="pedro henrique">
+                    </div>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>Formação</h2>
-            <p>
-                Graduação - Análise e Desenvolvimento de Sistemas
-            </p>
+
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS ESPECIALIDADES</h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Website</h3>
+                        <p>Criamos seu Site Responsivo — Não Perca Cliente com um Site que não Funciona no Celular.</p>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-cart2"></i>
+                        <h3>Loja online</h3>
+                        <p>Layouts Profissionais — Seus estoques em categorias, incluindo fotos e preços para oferecer
+                            toda a informação necessária.</p>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-wordpress"></i>
+                        <h3>Blog</h3>
+                        <p>Publique sobre o que você adora, do seu jeito. Seja para compartilhar conhecimentos,
+                            experiências ou notícias recentes, crie um blog lindo e original.</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>Cursos</h2>
-            <p>
-                Fundamentos da Nuvem AWS
-            </p>
-        </section>
-        <footer>
-            <a href="https://www.linkedin.com/in/pedro-henrique-0272a92a2/" target="_blank" rel="noopener noreferrer">
-                <img src="image/linkedin.svg" alt="linkedin">
-                <p>Linkedin</p>
-            </a>
-            <a href="https://github.com/euPeAga" target="_blank" rel="noopener noreferrer">
-                <img src="image/github.svg" alt="github">
-                <p>Github</p>
-            </a>
-            <a href="https://www.youtube.com/channel/UCv4K81m0rVy1q3Hz4skf5Wg" target="_blank"
-                rel="noopener noreferrer">
-                <img src="image/youtube.svg" alt="youtube">
-                <p>YouTube</p>
-            </a>
-        </footer>
-    </div>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="image/PH LOGO PRETO.png" alt="">
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/pedro_henrib/"><button><i
+                                    class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/pedro-henrique-0272a92a2/"><button><i
+                                    class="bi bi-linkedin"></i></button></a>
+                        <a href="https://www.youtube.com/channel/UCv4K81m0rVy1q3Hz4skf5Wg"><button><i
+                                    class="bi bi-youtube"></i></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line-footer">
+                <p><i class="bi bi-envelope"></i> <a href="mailto:phbteixeira@outlook.com">phbteixeira@outlook.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
