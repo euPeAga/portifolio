@@ -21,13 +21,13 @@
             <nav class="meni-desktop">
                 <ul>
                     <li>
-                        <a href="sobre.html">Sobre Mim</a>
+                        <a href="#" onclick="scrollToSection('sobre')">Sobre Mim</a>
                     </li>
                     <li>
                         <a href="projetos.html">Projetos</a>
                     </li>
                     <li>
-                        <a href="especialidades.html">Especialidades</a>
+                        <a href="#" onclick="scrollToSection('especialidades')">Especialidades</a>
                     </li>
                 </ul>
             </nav>
@@ -42,17 +42,12 @@
 
 
     <main>
-        <section class="topo-do-site">
+        <section class="topo-do-site" id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
                         <h1>Sobre</h1>
-                        <p>Como desenvolvedor, mergulho diariamente em tecnologias como HTML, CSS, JavaScript, Python e
-                            GIt.
-                            Atualmente estou cursando o segundo período de Analise e Desenvolvimento de Sistemas. Estou
-                            comprometido(a) com meu desenvolvimento acadêmico e buscando integrar teoria e prática de
-                            maneira
-                            eficaz.</p>
+                        <p>Desenvolvedor imerso em HTML, CSS, JavaScript, Python e Git. Estudante do segundo período de Análise e Desenvolvimento de Sistemas, buscando integrar teoria e prática de forma eficaz.</p>
 
                         <div class="btn-contato">
                             <a href="#">
@@ -64,32 +59,52 @@
             </div>
         </section>
 
-        <section class="especialidades">
+        <section class="especialidades" id="especialidades">
             <div class="interface">
                 <h2 class="titulo">MINHAS ESPECIALIDADES</h2>
                 <div class="flex">
                     <div class="especialidades-box">
                         <i class="bi bi-code-square"></i>
                         <h3>Website</h3>
-                        <p>Criamos seu Site Responsivo — Não Perca Cliente com um Site que não Funciona no Celular.</p>
+                        <p>Se sua empresa não tem um site, você perde a chance de clientes se envolverem mais com sua marca. Garanta já sua presença online</p>
                     </div>
 
                     <div class="especialidades-box">
                         <i class="bi bi-cart2"></i>
                         <h3>Loja online</h3>
-                        <p>Layouts Profissionais — Seus estoques em categorias, incluindo fotos e preços para oferecer
+                        <p>Layouts Profissionais. Seus estoques em categorias, incluindo fotos e preços para oferecer
                             toda a informação necessária.</p>
                     </div>
 
                     <div class="especialidades-box">
-                        <i class="bi bi-wordpress"></i>
-                        <h3>Blog</h3>
-                        <p>Publique sobre o que você adora, do seu jeito. Seja para compartilhar conhecimentos,
-                            experiências ou notícias recentes, crie um blog lindo e original.</p>
+                        <i class="bi bi-phone"></i>
+                        <h3>Sites responsivos</h3>
+                        <p>Um layout responsivo garante que o site se adapte a diferentes dispositivos, como smartphones e tablets, proporcionando uma experiência de usuário consistente e agradável.</p>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="minhas-skills">
+            <div class="flex">
+                <div class="skills">
+                    <img src="image/LogoTecnologias/html.png" alt="HTML">
+                </div>
+
+                <div class="skills">
+                    <img src="image/LogoTecnologias/css-3.png" alt="CSS">
+                </div>
+
+                <div class="skills">
+                    <img src="image/LogoTecnologias/python.png" alt="Python">
+                </div>
+
+                <div class="skills">
+                    <img src="image/LogoTecnologias/js.png" alt="JavaScript">
+                </div>
+            </div>
+        </section> 
+        
     </main>
 
     <footer>
@@ -100,11 +115,11 @@
                         <img src="image/PH LOGO PRETO.png" alt="">
                     </div>
                     <div class="btn-social">
-                        <a href="https://www.instagram.com/pedro_henrib/"><button><i
+                        <a href="https://www.instagram.com/pedro_henrib/" target="_blank"><button><i
                                     class="bi bi-instagram"></i></button></a>
-                        <a href="https://www.linkedin.com/in/pedro-henrique-0272a92a2/"><button><i
+                        <a href="https://www.linkedin.com/in/pedro-henrique-0272a92a2/" target="_blank"><button><i
                                     class="bi bi-linkedin"></i></button></a>
-                        <a href="https://www.youtube.com/channel/UCv4K81m0rVy1q3Hz4skf5Wg"><button><i
+                        <a href="https://www.youtube.com/channel/UCv4K81m0rVy1q3Hz4skf5Wg" target="_blank"><button><i
                                     class="bi bi-youtube"></i></button></a>
                     </div>
                 </div>
@@ -116,6 +131,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>

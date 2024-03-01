@@ -16,7 +16,6 @@ h2.titulo{
 body{
     background-color: black;
     height: 100vh;
-    
 }
 
 .interface{
@@ -147,7 +146,7 @@ section.topo-do-site .flex{
 
 /* ESTILO DA ESPECIALIDADES */
 
-section.especialidades{
+section.especialidades, section .minhas-skills{
     padding: 40px 4%;
 }
 
@@ -177,35 +176,75 @@ section.especialidades .flex{
     margin: 15px 0;
 }
 
+.minhas-skills .flex .skills img{
+    height: 70px;
+}
+
+
+section .minhas-skills .flex{
+    gap: 60px;
+}
+
+.minhas-skills .skills{
+    color: white;
+    padding: 40px;
+    margin-top: 45px;
+    margin: 0 auto;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.minhas-skills .skills:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.452);
+}
+
 
 /* ESTILO DO RODAPÉ */
 
 footer{
-    height: 100vh;
+    background-color: black;
+    color: white;
     padding: 60px 4%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-footer .flex{
-    justify-content: space-between;
-}
-
 footer .line-footer{
+    border-top: 1px solid white;
     padding: 20px 0;
+    display: flex;
+    flex-direction: column;
 }
 
-footer .line-footer p i{
+footer .btn-social button{
+    margin-right: 10px;
+}
+
+footer .btn-social button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+footer .logo-footer img {
+    width: 120px;
+}
+
+footer .line-footer p i, footer .line-footer p a {
     color: white;
-    font-size: 22px;
+    font-size: 18px;
+    margin: 0;
 }
 
-footer .line-footer p a{
-    color: white;
-    text-decoration: none;
-}
-
-footer .logo-footer img{
-    width: 150px;  
+footer .btn-social button:hover {
+    box-shadow: 0px 0px 8px white;
+    transform: scale(1.05);
 }
